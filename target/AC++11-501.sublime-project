@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "Scons",
+			"working_dir": "${project_path:${folder}}",
+			"shell_cmd": "scons"
+		},
+
+		{
+			"name": "RTOS",
+			"working_dir": "${project_path:${folder}}",
+			"shell_cmd": "scons --rtos"
+		}
+	]
+}

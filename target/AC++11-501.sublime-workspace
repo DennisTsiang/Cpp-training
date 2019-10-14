@@ -1,0 +1,254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/feabhas/Desktop/Project templates/C++11-501-Target/.cproject",
+			"settings":
+			{
+				"buffer_size": 54925,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Scons",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/feabhas/course-material/templates/target",
+		"/home/feabhas/course-material/templates/target/src"
+	],
+	"file_history":
+	[
+		"/home/feabhas/course-material/templates/target/reset-project.sh",
+		"/home/feabhas/course-material/templates/target/src/Step.cpp",
+		"/home/feabhas/course-material/templates/target/src/Step.h",
+		"/home/feabhas/course-material/templates/target/src/Interfaces.h",
+		"/home/feabhas/course-material/templates/target/src/WashProgramme.cpp",
+		"/home/feabhas/course-material/templates/target/src/Message_queue.h",
+		"/home/feabhas/course-material/templates/target/src/Message_queue.cpp",
+		"/home/feabhas/course-material/templates/target/src/main.cpp",
+		"/home/feabhas/course-material/templates/target/src/WashStep.h",
+		"/home/feabhas/course-material/templates/target/SConstruct",
+		"/home/feabhas/course-material/templates/target/src/RinseStep.cpp",
+		"/home/feabhas/course-material/templates/target/src/SpinStep.cpp",
+		"/home/feabhas/course-material/templates/target/src/WashStep.cpp",
+		"/home/feabhas/course-material/templates/target/middleware/feabhos/C++14/inc/FIFO.h",
+		"/home/feabhas/course-material/templates/target/src/MessageQueue.h",
+		"/home/feabhas/course-material/templates/target/build-one.sh",
+		"/home/feabhas/course-material/templates/target/middleware/feabhos/C++14/inc/MessageQueue.h",
+		"/home/feabhas/course-material/templates/target/src/MessageQueue.cpp",
+		"/home/feabhas/course-material/templates/target/drivers/Timer.cpp",
+		"/home/feabhas/course-material/templates/target/build-all.sh",
+		"/home/feabhas/course-material/templates/target/drivers/Buffer.h",
+		"/home/feabhas/course-material/templates/target/drivers/Timer.h",
+		"/home/feabhas/course-material/templates/target/drivers/SConscript",
+		"/home/feabhas/course-material/templates/target/middleware/SConscript",
+		"/home/feabhas/course-material/templates/target/middleware/feabhos/C/platform/FreeRTOS/src/feabhOS_mailbox.c",
+		"/media/feabhas/KINGSTON/C++11-501/feabhos/C/platform/FreeRTOS/src/feabhOS_mailbox.c",
+		"/home/feabhas/course-material/templates/target/C++11-501.sublime-project",
+		"/home/feabhas/course-material/templates/target/QEMU.sh",
+		"/home/feabhas/Desktop/Project templates/C++11-501-Target/build-all.sh",
+		"/home/feabhas/course-material/templates/cpp11-501/build-all.sh",
+		"/home/feabhas/eclipse-workspace/C++11-501-Target/src/main.cpp",
+		"/home/feabhas/eclipse-workspace/C++11-501-Host/src/main.cpp",
+		"/home/feabhas/eclipse-workspace/C++11-501-Host/SConstruct",
+		"/home/feabhas/eclipse-workspace/C++11-501-Host/C++11-501-Host.sublime-project",
+		"/home/feabhas/eclipse-workspace/C++11-501-Target/SConstruct",
+		"/home/feabhas/eclipse-workspace/C++11-501-Target/C++11-501.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Utility::Buffer",
+			"Buffer_t",
+			"Buffer",
+			"Buffer<T, sz>",
+			"buffer",
+			"Buffer",
+			"Solutions",
+			"cotrex_m4_flags"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/feabhas/Desktop/Project templates/C++11-501-Target/.cproject",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 179.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Scons",
+	"project": "C++11-501.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 351.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
