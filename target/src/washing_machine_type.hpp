@@ -3,7 +3,7 @@
 
 namespace WMS 
 {
-    enum Type { invalid, empty, fill, heat };
+    enum Type { invalid, empty, fill, heat, wash };
 }
 
 #endif

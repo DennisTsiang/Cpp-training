@@ -27,8 +27,12 @@ using namespace Time;
 int main()
 {
   std::cout << "Feabhas C++11-501" << std::endl;
-  WMS::Step step {};
-  step.run();
+  WMS::Step fill {WMS::invalid, 1000};
+  WMS::Step wash {WMS::wash, 5000};
+  WMS::Step empty {WMS::empty, 1000};
+  fill.run();
+  wash.run();
+  empty.run();
 
   while (true) {
     std::cout << "Tick..." << std::endl;

@@ -25,7 +25,9 @@ namespace WMS
 
     void Step::display()
     {
-        printf("Step %s running for %f milliseconds\n", this->typeStrings[this->type], this->duration.as_ticks() / 1000.0);
+        printf("Step %s running for %f milliseconds\n", 
+            this->typeStrings[this->type], 
+            this->duration.as_ticks() / 1000.0);
     }
 
     void Step::run()
