@@ -1,5 +1,7 @@
 // -----------------------------------------------------------------------------
 // main.cpp
+// ./qemu-run.sh build/debug/AC++11-501.bin
+//
 //
 // DISCLAIMER:
 // Feabhas is furnishing this item "as is". Feabhas does not provide any
@@ -18,12 +20,15 @@
 
 #include <iostream>
 #include "Time.h"
+#include "step.hpp"
 
 using namespace Time;
 
 int main()
 {
   std::cout << "Feabhas C++11-501" << std::endl;
+  WMS::Step step {};
+  step.run();
 
   while (true) {
     std::cout << "Tick..." << std::endl;
