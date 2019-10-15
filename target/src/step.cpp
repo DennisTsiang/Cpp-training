@@ -2,9 +2,8 @@
 #include <iostream>
 #include <cstdio>
 #include "step.hpp"
-#include "washing_machine_type.hpp"
 
-using namespace Time;
+using Time::operator"" _ms;
 
 namespace WMS
 {
@@ -36,4 +35,8 @@ namespace WMS
         Time::sleep(this->duration);
     }
 
+    Type Step::get_type()
+    {
+        return this->type;
+    }
 }

@@ -4,15 +4,16 @@
 #include "Time.h"
 #include <iostream>
 #include <cstdio>
-#include "washing_machine_type.hpp"
 
 namespace WMS
 {
 
+    enum Type { invalid, empty, fill, heat, wash };
+
     class Step 
     {
         private:
-        enum Type type;
+        Type type;
         Time::Duration duration; // in milliseconds
         const char* typeStrings[5] { "invalid", "empty", "fill", "heat", "wash" };
 
@@ -24,6 +25,7 @@ namespace WMS
         Step(enum Type type, Time::Duration duration);
         ~Step();
         void run();
+        Type get_type();
     };
 }
 
