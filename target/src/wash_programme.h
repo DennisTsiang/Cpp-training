@@ -12,8 +12,9 @@ namespace WMS
         std::vector<Step> steps {};
 
         public:
+        Wash_programme() = default;
         Wash_programme(std::initializer_list<Step> steps) : steps {steps} {};
-        void add(Step step);
+        void add(const Step &step);
         void run();
         void remove(Type step_type);
     };

@@ -12,9 +12,28 @@ namespace WMS
     {
     }
 
-    Step::Step(enum Type type, Time::Duration duration): type{type}, duration{duration}
+    Step::Step(enum Type type, Time::Duration duration)
+        : Step(type, duration, "No description provided")
+    {
+    }
+
+    Step::Step(enum Type type, Time::Duration duration, const char* description) 
+        : type{type}, duration{duration}, description{ description }
     {
         std::cout << "Step constructor called" << std::endl;
+    }
+
+    Step::Step(const Step& other) 
+        : type{other.type}, duration{other.duration}, description{other.description}
+    {
+        std::cout << "Step copy constructor called" << std::endl;
+    }
+
+    Step::Step(Step&& other) noexcept
+       : type{other.type}, duration{other.duration}, description{std::move(other.description)}
+
+    {
+        std::cout << "Step move constructor called" << std::endl;
     }
 
     Step::~Step()
@@ -27,6 +46,7 @@ namespace WMS
         printf("Step %s running for %f milliseconds\n", 
             this->typeStrings[this->type], 
             this->duration.as_ticks() / 1000.0);
+        std::cout << this->description.c_str() << std::endl;
     }
 
     void Step::run()

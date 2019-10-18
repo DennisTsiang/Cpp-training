@@ -3,7 +3,7 @@
 
 namespace WMS {
 
-    void Wash_programme::add(Step step)
+    void Wash_programme::add(const Step &step)
     {
         this->steps.push_back(step);
     }

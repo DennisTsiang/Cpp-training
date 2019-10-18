@@ -21,21 +21,23 @@
 #include <iostream>
 #include "Time.h"
 #include "step.hpp"
+#include "wash_programme.h"
 
 using namespace Time;
 
 int main()
 {
   std::cout << "Feabhas C++11-501" << std::endl;
-  WMS::Step fill {WMS::invalid, 1000};
-  WMS::Step wash {WMS::wash, 5000};
-  WMS::Step empty {WMS::empty, 1000};
-  fill.run();
-  wash.run();
-  empty.run();
 
-  while (true) {
-    std::cout << "Tick..." << std::endl;
-    sleep(1000_ms);
-  }
+  WMS::Wash_programme washing_machine { };
+  washing_machine.add({ WMS::invalid, 1000, "Washing machine on standby" });
+  washing_machine.add({ WMS::wash, 2000, "Washing cycle" });
+  washing_machine.add({ WMS::empty, 1000, "Emptying water from basin" });
+  
+  washing_machine.run();
+
+  // while (true) {
+  //   std::cout << "Tick..." << std::endl;
+  //   sleep(1000_ms);
+  // }
 }
